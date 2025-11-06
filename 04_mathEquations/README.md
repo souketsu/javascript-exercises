@@ -1,23 +1,25 @@
-# Exercise 04 - mathEquations
+# 练习 04 - mathEquations
 
-Replace the strings to the right of the `=` with the expression they describe. Do **not** manually enter the answers to the equation.
+将 `=` 右侧的字符串替换为它们所描述的表达式。**不要**手动输入方程的答案。
 
-Currently, the variables are strings. They need to be math equations instead.
+目前，变量都是字符串。它们需要变成数学方程。
 
-To help you, the first variable has been completed for you:
+为了帮助你，第一个变量已经为你完成：
+
 ```js
-const a = 1 - 1 // Freebie!!! This is the answer to "one minus one"
+const a = 1 - 1 // 免费赠品！！！这是"一减一"的答案
 ```
 
-The following is an example of the **wrong** answer:
+以下是一个**错误**答案的例子：
+
 ```js
-const a = 0 // WRONG!!! You need to write out the equation, NOT put the result of the equation directly!
+const a = 0 // 错误！！！你需要写出方程，而不是直接放入方程的结果！
 ```
 
-Feel free to run the test suite right now to see the first test pass, then go from there. Good luck!
+现在就可以运行测试套件，看看第一个测试是否通过，然后从那里继续。祝你好运！
 
-## Hints
+## 提示
 
-- Look at the docs for arithmetic operators in JavaScript for a quick reference.
+- 查看JavaScript中算术运算符的文档以获取快速参考。
 
-- Refer back to the [Variables and Operators lesson](https://www.theodinproject.com/lessons/foundations-variables-and-operators) if you are still stuck.
+- 如果你仍然遇到困难，请回顾 [变量和运算符课程](https://www.theodinproject.com/lessons/foundations-variables-and-operators)。

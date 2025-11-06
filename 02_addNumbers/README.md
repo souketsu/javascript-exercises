@@ -1,9 +1,9 @@
-# Exercise 02 - addNumbers
+# 练习 02 - addNumbers
 
-Troubleshoot and modify the existing function so that it returns the digit 2. Avoid "hard coding" the result and try to use variables `a` and `b` to get the correct output.
+排查并修改现有函数，使其返回数字2。避免"硬编码"结果，尝试使用变量`a`和`b`来获得正确的输出。
 
-Currently, it is not returning the correct value.
+目前，它没有返回正确的值。
 
-## Hints
+## 提示
 
-- You only need to edit the strings on line 7.
+- 你只需要编辑第7行的字符串。
