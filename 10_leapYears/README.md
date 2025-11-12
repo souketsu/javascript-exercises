@@ -1,17 +1,18 @@
-# Exercise 10 - leapYears
+# 练习10 - 闰年判断
 
-Create a function that determines whether or not a given year is a leap year. Leap years are determined by the following rules:
+创建一个函数来判断给定年份是否为闰年。闰年的判断规则如下：
 
-> Leap years are years divisible by four (like 1984 and 2004). However, years divisible by 100 are not leap years (such as 1800 and 1900) unless they are divisible by 400 (like 1600 and 2000, which were in fact leap years). (Yes, it's all pretty confusing)
+> 闰年是能被4整除的年份（如1984和2004）。但是，能被100整除的年份不是闰年（如1800和1900），除非它们也能被400整除（如1600和2000，这些实际上是闰年）。（是的，这确实有点复杂）
 >
-> -- <cite>[Learn to Program](https://pine.fm/LearnToProgram/chap_06.html) by Chris Pine</cite>
-
-```javascript
-leapYears(2000) // is a leap year: returns true
-leapYears(1985) // is not a leap year: returns false
+> -- [Learn to Program](https://pine.fm/LearnToProgram/chap_06.html) by Chris Pine
+> 
+```js
+leapYears(2000) // 是闰年：返回 true
+leapYears(1985) // 不是闰年：返回 false
 ```
-Still confused? Refer to <cite>[this breakdown](https://time-and-calendar.com/leap-years/#:~:text=How%20to%20Know%20if%20Certain%20Year%20is%20a%20Leap%20Year)<cite> with examples.
 
+## 提示
 
-## Hints
-- use an `if` statement and `&&` to make sure all the conditions are met properly
+- 使用 `if` 语句和 `&&` 运算符来确保所有条件都得到正确判断
+
+还是不太明白？请参考[这个详细说明](https://time-and-calendar.com/leap-years/#:~:text=How%20to%20Know%20if%20Certain%20Year%20is%20a%20Leap%20Year)中的示例。

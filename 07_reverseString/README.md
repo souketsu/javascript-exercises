@@ -1,11 +1,11 @@
-# Exercise 07 - Reverse a String
+# 练习07 - 反转字符串
 
-Pretty simple, write a function called `reverseString` that returns its input, reversed!
+非常简单，编写一个名为 `reverseString` 的函数，返回其输入的反转形式！
 
-```javascript
-reverseString('hello there') // returns 'ereht olleh'
+```js
+reverseString('hello there') // 返回 'ereht olleh'
 ```
 
-## Hints
-Strings in JavaScript are immutable and, therefore, cannot be reversed directly in place. While there is no built-in method for this, several alternative approaches can be used, drawing on the concepts you've been introduced to in the lessons.
+## 提示
 
+JavaScript中的字符串是不可变的，因此不能直接原地反转。虽然没有内置方法可以实现这个功能，但可以使用几种替代方法，这些方法利用了你在课程中学到的概念。

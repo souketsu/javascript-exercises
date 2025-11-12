@@ -1,19 +1,19 @@
-# Exercise 06 - repeatString
+# 练习 06 - repeatString
 
-Write a function that simply repeats the string a given number of times:
+编写一个函数，简单地将字符串重复指定次数：
 
 ```javascript
-repeatString('hey', 3) // returns 'heyheyhey'
+repeatString('hey', 3) // 返回 'heyheyhey'
 ```
 
-This function will take two arguments, `string` and `num`.
+这个函数将接受两个参数：string（字符串）和 num（次数）。
 
-Use loops to implement `repeatString` rather than using the builtin `String.prototype.repeat` which has the same behaviour.
+请使用循环来实现 repeatString，而不是使用具有相同行为的内置方法 String.prototype.repeat。
 
-*Note:* The exercises after this one will not have arguments provided as this one does - you will need to provide them yourself from now on. So read each exercise's README carefully to see what kinds of arguments will be expected.
+注意： 此练习之后的练习将不会像这个练习一样提供参数 - 从现在开始，您需要自己提供参数。因此，请仔细阅读每个练习的README，了解需要提供哪些类型的参数。
 
-## Hints
+## 提示
 
-- What inputs does the function need to achieve its goal?
+- 函数需要哪些输入才能实现其目标？
 
-- How can you iteratively build up the final string, using one of the inputs to control the repetition?
+- 如何使用其中一个输入来控制重复次数，迭代地构建最终字符串？

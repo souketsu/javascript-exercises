@@ -1,14 +1,12 @@
-# Exercise 09 - sumAll
+# 练习09 - 求和函数
 
-Implement a function that takes 2 positive integers and returns the sum of every integer between (and including) them:
+实现一个函数，接收两个正整数作为参数，返回这两个数之间（包括这两个数）所有整数的和：
 
 ```javascript
-sumAll(1, 4) // returns the sum of 1 + 2 + 3 + 4 which is 10
+sumAll(1, 4) // 返回 1 + 2 + 3 + 4 的和，即 10
 ```
 
+## 提示
 
-## Hints
-
-- How will you ensure you're summing all integers within the correct range, no matter the order of the inputs?
-
-- Think about your sum's starting value. Then, how can you make sure every single number from the smaller input to the larger one (including both) gets added to it?
+- 如何确保无论输入的顺序如何，都能正确计算范围内的所有整数之和？
+- 考虑和的初始值。然后，如何确保从较小输入到较大输入（包括两端）的每个数字都被加到总和中？
