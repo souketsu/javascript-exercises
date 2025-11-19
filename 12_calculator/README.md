@@ -1,12 +1,12 @@
-# Exercise 12 - Calculator
+# 练习12 - 计算器
 
-The goal for this exercise is to create a calculator that does the following:
+本练习的目标是创建一个具有以下功能的计算器：
 
-1. `add()`: take two numbers and return their sum
-2. `subtract()`: take two numbers and return the result after subtracting the second from the first
-3. `sum()`: take an array of numbers and add all the numbers together
-4. `multiply()`: take an array of numbers and multiply all the numbers together
-5. `power()`: take two numbers (base and exponent) and return the result of raising the base to that exponent
-6. `factorial()`: given a single number, find its [factorial](https://en.wikipedia.org/wiki/Factorial)
+1. `add()`：接收两个数字并返回它们的和
+2. `subtract()`：接收两个数字并返回第一个数减去第二个数的结果
+3. `sum()`：接收一个数字数组并将所有数字相加
+4. `multiply()`：接收一个数字数组并将所有数字相乘
+5. `power()`：接收两个数字（底数和指数）并返回底数的指数次幂的结果
+6. `factorial()`：给定一个数字，计算它的[阶乘](https://en.wikipedia.org/wiki/Factorial)
 
-Please fill out each function with your solution. Make sure to `return` the value so you can test it in Jest! To see the expected value, take a look at the `.spec.js` file that houses the Jest test cases.
+请填写每个函数的解决方案。确保`return`返回值，这样你就可以在Jest中测试它！要查看期望值，请查看包含Jest测试用例的`.spec.js`文件。
