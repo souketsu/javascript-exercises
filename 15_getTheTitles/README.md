@@ -1,6 +1,6 @@
-# Exercise 15 - Get the Titles!
+# 练习 15 - 获取书名！
 
-You are given an array of objects that represent books with an author and a title that looks like this:
+你将获得一个对象数组，这些对象代表带有作者和书名的书籍，如下所示：
 
 ```javascript
 const books = [
@@ -15,12 +15,12 @@ const books = [
 ]
 ```
 
-Your job is to write a function that takes the array and returns an array of titles:
+你的任务是编写一个函数，接收这个数组并返回一个书名数组：
 
 ```javascript
 getTheTitles(books) // ['Book','Book2']
 ```
 
-## Hints
+## 提示
 
-- You should use a built-in javascript method to do most of the work for you!
+- 你应该使用JavaScript内置方法来为你完成大部分工作！

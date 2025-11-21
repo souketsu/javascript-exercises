@@ -1,12 +1,12 @@
-# Exercise 14 - Fibonacci
+# 练习14 - 斐波那契数列
 
-Create a function that returns a specific member of the Fibonacci sequence:
+创建一个函数来返回斐波那契数列中的特定成员：
 
-> A series of numbers in which each number ( Fibonacci number ) is the sum of the two preceding numbers.
-> In this exercise, the Fibonacci sequence used is 1, 1, 2, 3, 5, 8, etc.
-> To learn more about Fibonacci sequences, go to: https://en.wikipedia.org/wiki/Fibonacci_sequence
+> 斐波那契数列是一个数字序列，其中每个数字（斐波那契数）都是前两个数字的和。
+> 在本练习中，使用的斐波那契数列是 1, 1, 2, 3, 5, 8 等。
+> 要了解更多关于斐波那契数列的信息，请访问：[斐波那契数列](https://en.wikipedia.org/wiki/Fibonacci_sequence)
 
 ```javascript
-fibonacci(4); // returns the 4th member of the series: 3  (1, 1, 2, 3)
-fibonacci(6); // returns 8
+fibonacci(4); // 返回数列中的第4个成员：3  (1, 1, 2, 3)
+fibonacci(6); // 返回 8
 ```

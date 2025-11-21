@@ -1,10 +1,11 @@
-# Exercise 16 - Find the Oldest
+# 练习 16 - 找出最年长的人
 
-Given an array of objects representing people with a birth and death year, return the oldest person.
+给定一个表示人物的对象数组，每个对象包含出生年份和死亡年份，返回最年长的人。
 
-Now that you've reached the final exercise, you should be fairly comfortable getting the information you need from test case(s). Take a look at how the array of objects is constructed in this exercise's test cases to help you write your function.
+既然你已经到达最后一个练习，你应该已经相当熟悉如何从测试用例中获取所需的信息。看看这个练习的测试用例中对象数组是如何构建的，以帮助你编写函数。
 
-## Hints
-- You should return the whole person object, but the tests mostly just check to make sure the name is correct.
-- There are many ways of doing this using built-in array methods like `reduce`, or even chaining multiple! 
-- One of the tests checks for people with no death-date.. use JavaScript's Date function to get their age as of today.
+## 提示
+
+- 你应该返回整个人物对象，但测试主要只检查姓名是否正确。
+- 有很多方法可以使用内置的数组方法（如reduce）来完成这个任务，甚至可以链式调用多个方法！
+- 其中一个测试检查没有死亡日期的人.. 使用JavaScript的Date函数来获取他们至今的年龄。
